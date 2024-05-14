@@ -5,7 +5,7 @@ Google cloudshell instance take over (as root)
 
 
 
-[![Open in Cloud Shell](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fmagnetic-ferret%2Fta.git&page=editor&cloudshell_tutorial=README.md)
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fmagnetic-ferret%2Fta.git&page=editor&cloudshell_tutorial=README.md)
 
 
 ## Getting Started 
