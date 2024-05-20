@@ -1,5 +1,12 @@
 # Test.md
 
+<script onload="{
+  console.log(document);
+  alert(document);
+}">
+  
+</script>
+
 <details>
   <summary>Click me</summary>
   
