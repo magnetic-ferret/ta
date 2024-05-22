@@ -1,1 +1,1 @@
-![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwebhook.site%2F8714cbf4-0235-49e8-9ecb-6cc153712f85&query=%24.)
+![Dynamic Badge](https://img.shields.io/badge/dynamic/json?url=data:application/json,%7B%22label%22:%22myLabel%22,%22value%22:%2242%22%7D&query=$.value&color=blue)
