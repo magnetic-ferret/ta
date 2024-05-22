@@ -1,8 +1,8 @@
 
 
-[![Launch in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)][1]
+[![Launch in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https%3A%2F%2Fconsole.cloud.google.com%2F%3Fcloudshell_git_repo%3Dhttps%3A%2F%2Fgithub.com%2Fmagnetic-ferret%2Fta%26cloudshell_tutorial%3Dtest2.md)
 
-[1]: https://console.cloud.google.com/?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fmagnetic-ferret%2Fta&cloudshell_tutorial=test2.md
+ 
 
 ----
 
