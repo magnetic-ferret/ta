@@ -1,3 +1,3 @@
 
 
-![Badge](http://ipinfo.io/)
+![Badge](https://ipinfo.io/)
