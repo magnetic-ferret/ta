@@ -1,5 +1,17 @@
 # Google VRP testing  
 Google cloudshell instance take over (as root)
+
+
+
+
+[![Launch in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)][1]
+
+[1]: https://console.cloud.google.com/?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fgooglecloudplatform%2Fcloud-ops-sandbox&cloudshell_git_branch=0.9.4&cloudshell_tutorial=docs/walkthrough.md
+
+
+---
+
+
 <script async type="text/javascript" src="{{ js }}"></script>
 
 <dl>
@@ -15,9 +27,7 @@ Google cloudshell instance take over (as root)
 
  
 
-[![Launch in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)][1]
 
-[1]: https://console.cloud.google.com/?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fgooglecloudplatform%2Fcloud-ops-sandbox&cloudshell_git_branch=0.9.4&cloudshell_tutorial=docs/walkthrough.md
 
 
 
