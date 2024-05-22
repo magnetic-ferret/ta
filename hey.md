@@ -13,7 +13,7 @@ Google cloudshell instance take over (as root)
 
 ---
 
-<scrp
+ 
 
 [![Launch in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)][1]
 
